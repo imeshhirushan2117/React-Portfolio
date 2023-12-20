@@ -1,0 +1,24 @@
+.sticky{
+    width: 100%;
+    height: 40px;
+    background-color: #1F242D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-navbar{
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+   
+}
+.fonts{
+    font-family: 'Zilla Slab', serif;
+    color: #4BFFA5;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
