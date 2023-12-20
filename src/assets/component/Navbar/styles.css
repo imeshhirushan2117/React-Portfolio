@@ -1,3 +1,4 @@
+/* .sticky-nevbar */
 .sticky{
     width: 100%;
     height: 40px;
@@ -6,15 +7,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.main-navbar{
-    background-color: #1E1E1E;
-    width: 100%;
-    height: 100px;
-    position: sticky;
-    top: 0px;
-   
-}
 .fonts{
     font-family: 'Zilla Slab', serif;
     color: #4BFFA5;
@@ -22,3 +14,41 @@
     font-weight: 100;
     letter-spacing: 10px;
 }
+
+/* Nav bar */
+.main-navbar{
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-name{
+    color: #4BFFA5;
+    margin-right: 20%;
+    font-size: 15px;
+    }
+
+.nav-item{
+display: flex;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    margin:30px;
+    font-size: 18px;
+    transition: color 0.9s ;
+}
+
+.nav-item a:hover{
+    color: #4BFFA5;
+   
+}
+
+
+
