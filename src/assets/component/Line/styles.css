@@ -1,9 +1,8 @@
-.down-line{
-    background:#4BFFA5;
+.down-line {
+    background: #4BFFA5;
     width: 2px;
-    height:75px;
+    height: 75px;
     margin-left: 10px;
     border-radius: 30px;
-user-select: none;
-    
+    user-select: none;
 }
