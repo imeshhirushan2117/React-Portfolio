@@ -1,18 +1,19 @@
 import './styles.css'
+import menu from '../../img/icon/menu-bar.png'
 
 
 
 
-function Navbar(props) {
+function Navbar() {
     return (
-
-
         <div className='main-navbar'>
           <div className='main-name'>
-          <h1><span style={{color:'#FFFFFF'}}>Imesh</span> Hirushan</h1>
+          <h1><span style={{color:'#FFFFFF'}}>Imesh</span> Hirushan
+          <img className='menu-icon' src={menu} alt="menu"/>
+          </h1>
           </div>
            <div className='nav-item'>
-            <a   href="#">Home</a>
+            <a className='active'  href="#">Home</a>
             <a  href="#">About</a>
             <a  href="#">Service</a>
             <a href="#">Skills</a>
@@ -20,8 +21,6 @@ function Navbar(props) {
             <a  href="#">Contact</a>
            </div>
         </div>
-
-
     )
 }
 

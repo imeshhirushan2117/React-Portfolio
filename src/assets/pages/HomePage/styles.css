@@ -1,0 +1,60 @@
+.main-container {
+    background: #14181E;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.home-img {
+    width: 30%;
+    margin-top: -17px;
+    display: flex;
+    max-width: 100%;
+
+}
+
+.contend-div {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   line-height: 70px;
+}
+
+.contend-div h2,
+h1,
+p {
+    font-weight: normal;
+    
+}
+
+.p-span {
+    color: #4BFFA5;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 50px;
+    justify-content: center;
+   
+}
+
+.social-media a {
+    color: white;
+    font-size: 23px;
+    transition: color 0.9s ;
+}
+
+.social-media a:hover{
+    color: #4BFFA5;
+}
