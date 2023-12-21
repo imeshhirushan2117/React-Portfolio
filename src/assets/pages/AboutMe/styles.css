@@ -1,0 +1,39 @@
+.aboutMe-cantainer{
+    background: #1F242D;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.aboutMe-img{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.text-contect{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.text-contect h2,
+h3{
+    font-weight: normal;
+    line-height: 55px;
+}
+
+.text-contect p{
+    line-height: 35px;
+    font-weight: normal;
+    text-indent: 100px;
+    text-align: justify;
+    margin-right: 20px;
+    letter-spacing: 3px !important ;
+}

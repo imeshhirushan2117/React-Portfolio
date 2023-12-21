@@ -1,0 +1,21 @@
+.btn{
+   background-color: #14181E;
+   border: #4BFFA5 solid 2px ;
+   font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+   padding: 10px;
+   border-radius: 100px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    color: #4BFFA5;
+    border: white solid 2px ;
+}

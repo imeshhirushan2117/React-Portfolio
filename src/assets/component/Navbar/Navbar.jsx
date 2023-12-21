@@ -2,8 +2,6 @@ import './styles.css'
 import menu from '../../img/icon/menu-bar.png'
 
 
-
-
 function Navbar() {
     return (
         <div className='main-navbar'>

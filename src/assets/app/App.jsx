@@ -1,8 +1,7 @@
 import './App.css'
-import Navbar,{StickyNanbar} from '../component/Navbar/Navbar'
-import Temp from '../component/Temp/Temp'
+import Navbar, { StickyNanbar } from '../component/Navbar/Navbar'
 import Home from '../pages/HomePage/Home'
-
+import AboutMe from '../pages/AboutMe/AboutMe'
 
 
 function App() {
@@ -11,14 +10,10 @@ function App() {
   return (
     <>
 
-    <StickyNanbar title={'WELLCOME TO MY PORTFOLIO!'}/>
-    <Navbar/>
-    <Home/>
-
-
-
-
-    <Temp/>
+      <StickyNanbar title={'WELLCOME TO MY PORTFOLIO!'} />
+      <Navbar />
+      <Home />
+      <AboutMe />
     </>
   )
 }
