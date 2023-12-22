@@ -2,7 +2,9 @@ import './App.css'
 import Navbar, { StickyNanbar } from '../component/Navbar/Navbar'
 import Home from '../pages/HomePage/Home'
 import AboutMe from '../pages/AboutMe/AboutMe'
+import Service from '../pages/Service/Service'
 
+import { Temp } from '../pages/Temp/Temp'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <Navbar />
       <Home />
       <AboutMe />
+      <Service />
+      <Temp />
     </>
   )
 }

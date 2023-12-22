@@ -5,7 +5,7 @@ import Button from '../../component/Button/Button'
 function AboutMe() {
     return (
         <div className='aboutMe-cantainer'>
-            <img className='aboutMe-img' src={aboutme} alt="aboutMe-img" />
+         
             <div className='text-contect'>
                 <h2>About <span style={{ color: "#4BFFA5" }}>Me</span> </h2>
                 <h3>Full Stack <span style={{ color: "#4BFFA5" }}> Developer!</span></h3>
@@ -20,6 +20,8 @@ function AboutMe() {
         
             
             </div>
+
+            <img className='aboutMe-img' src={aboutme} alt="aboutMe-img" />
         </div>
     )
 }

@@ -1,0 +1,25 @@
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14181E;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 5px;
+    flex-direction: column;
+    height: 690px;
+
+}
+
+.service-container h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin-top: -50px;
+}
+
+.cad-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
