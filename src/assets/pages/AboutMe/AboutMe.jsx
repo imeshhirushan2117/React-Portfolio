@@ -16,7 +16,9 @@ function AboutMe() {
                 I have a good knowledge of Programming Fundamental, DBMS, OOP, SE, MVC, and Layered Architectures.
                 </p>
               
-             <Button name={"Downloade CV"}width={"50%"}/>
+   <div className='btn-about'>
+   <Button name={"Downloade CV"}width={"50%"}/>
+   </div>
         
             
             </div>

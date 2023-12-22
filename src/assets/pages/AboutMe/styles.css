@@ -13,14 +13,15 @@
 
 .aboutMe-img{
     width: 30%;
-    margin-top: 50px;
+
 }
 
 .text-contect{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 40px;
+
 }
 
 .text-contect h2,
@@ -36,4 +37,8 @@ h3{
     text-align: justify;
     margin-right: 20px;
     letter-spacing: 3px !important ;
+}
+
+.btn-about{
+   margin-top: 30px;
 }
