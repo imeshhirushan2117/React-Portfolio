@@ -1,0 +1,43 @@
+.skil-container{
+    background-color: #1F242D;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skil-container h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.tbl-div{
+    display: flex;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+    
+}
+
+.edu-div{
+    background-color: #14181E;
+    border: #4BFFA5 solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.tch-skills{
+    background-color: red;
+    
+}
+
+.prf-skills{
+    background-color: yellow;
+}

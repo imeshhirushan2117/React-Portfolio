@@ -1,0 +1,64 @@
+.circle-dot{
+    background-color: #4BFFA5;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+
+.circle-dot::after{
+    content: "";
+    position: absolute;
+    background-color: #4BFFA5;
+    width: 2px;
+    height: 165px;
+    left:6.5px;
+    top: 14px;
+}
+
+/* 
+.line{
+    background-color: #4BFFA5;
+    width: 2px;
+    border-left-width: 3px;
+    height: 70px;
+    border-radius: 10px;
+    left: 6.5px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+} */
+
+.eduCad-div {
+    color: white;
+    letter-spacing: 5px;
+}
+
+.eduCad-div h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-wrap: nowrap;
+    text-align: left; 
+}
+
+.cd-div{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.fonts{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cd-div h4{
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cd-div p{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 5px;
+}

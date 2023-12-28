@@ -26,8 +26,8 @@
     font-family: 'Poppins',sans-serif;
     align-items: center;
     justify-content: space-around;
-   
   user-select: none;
+  z-index: 100;
 }
 .main-name{
     color: #4BFFA5;
