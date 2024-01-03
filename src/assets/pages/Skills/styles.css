@@ -19,7 +19,7 @@
 }
 
 .tbl-div{
-    display: flex;
+  display: flex;
   width: 100%;
   padding: 20px;
   margin-top: 20px;
@@ -30,14 +30,24 @@
     background-color: #14181E;
     border: #4BFFA5 solid 1px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
-.tch-skills{
-    background-color: red;
+.anoth-skils{
+   
+    text-align: center;
+    width: 100%;
+}
+
+.skills-title{
+    font-size: 20px;
+}
+
+.tch-skills {
+    width: 100%;
+
+}
+.progress-bar{
+
     
-}
-
-.prf-skills{
-    background-color: yellow;
 }

@@ -1,0 +1,21 @@
+.pg{
+    margin-left: 25%;
+    text-align: left;
+}
+
+.pr-div{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.p-bar{
+    width: 50%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: -15px;
+
+}
