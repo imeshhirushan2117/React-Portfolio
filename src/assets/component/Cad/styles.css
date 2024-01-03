@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
- 
 }
 
 .cad-component p{
@@ -25,7 +24,8 @@
     display: flex;
     align-items: center;
     justify-content: center ;
-margin-top: 10px;
+    margin-top: 10px;
+    
 }
 
 .icon{

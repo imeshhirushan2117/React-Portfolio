@@ -1,8 +1,11 @@
 import './styles.css'
 import Educad from '../../component/Educad/Educad'
-import Progressbar from '../../component/Progressbar/Progressbar'
+import Progressbar, { MyCircularProgressbar } from '../../component/Progressbar/Progressbar'
 
 function Skills() {
+
+
+
   return (
     <>
       <section className="skil-container">
@@ -43,6 +46,14 @@ function Skills() {
 
             <div className="prf-skills">
               <h2 className='skills-title'>Professional <span style={{ color: "#4BFFA5" }}>Skills</span> </h2>
+
+              <div className='my-Pro-bar'>
+                <MyCircularProgressbar cname={'Team Work'} percentage={90} />
+                <MyCircularProgressbar cname={'Creativity'} percentage={80} />
+                 <MyCircularProgressbar cname={'Communication'} percentage={70}/>           
+              <MyCircularProgressbar cname={'Project Mangement'} percentage={70}/>
+              </div>
+
             </div>
           </div>
         </div>

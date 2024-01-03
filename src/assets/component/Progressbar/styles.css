@@ -1,6 +1,8 @@
 .pg{
     margin-left: 25%;
     text-align: left;
+    letter-spacing: 8px;
+    font-size: 15px;
 }
 
 .pr-div{
@@ -17,5 +19,21 @@
     right: 0;
     margin: auto;
     margin-top: -15px;
+}
 
+/* ============================ */
+
+
+.cp{
+    /* margin-left: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg1{
+    font-size: 14px;
+    letter-spacing: 0;
+   margin-top: 10px;
 }
