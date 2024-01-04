@@ -4,7 +4,7 @@ import Home from '../pages/HomePage/Home'
 import AboutMe from '../pages/AboutMe/AboutMe'
 import Service from '../pages/Service/Service'
 import Skills from '../pages/Skills/Skills'
-import { Route, Routes, Navigate } from 'react-router-dom'
+// import { Route, Routes, Navigate } from 'react-router-dom'
 import { Temp } from '../pages/Temp/Temp'
 
 function App() {
@@ -27,6 +27,9 @@ function App() {
           <AboutMe />
           <Service />
           <Skills />
+         
+        
+          
       <Temp />
 
     </>

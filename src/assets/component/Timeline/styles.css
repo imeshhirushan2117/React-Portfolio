@@ -1,0 +1,22 @@
+.titleTi{
+    font-size: 15px;
+    color: '#4BFFA5';
+    letter-spacing: 1px;
+}
+.pgTi{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.custom-date-class {
+    color: #4BFFA5;
+   margin-left: 50px;
+   margin-right: 30px;
+    
+    
+  }
+
+
+  .custom-text-class h5{
+    color: #4BFFA5;
+  }
