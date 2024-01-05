@@ -1,7 +1,7 @@
 import './styles.css'
-import Educad from '../../component/Educad/Educad'
-import Progressbar, { MyCircularProgressbar } from '../../component/Progressbar/Progressbar'
-import Timeline from '../../component/Timeline/Timeline'
+import Educad from '../../component/Educad/Educad.jsx'
+import Progressbar, { MyCircularProgressbar } from '../../component/Progressbar/Progressbar.jsx'
+import Timeline from '../../component/Timeline/Timeline.jsx'
 import { FaUniversity } from "react-icons/fa";
 import { IoIosBook } from "react-icons/io";
 import { FaLaptopCode } from "react-icons/fa";

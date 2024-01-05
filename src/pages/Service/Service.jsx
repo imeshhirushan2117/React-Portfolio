@@ -1,5 +1,5 @@
 import './styles.css'
-import Cad from '../../component/Cad/Cad'
+import Cad from '../../component/Cad/Cad.jsx'
 import { TbDeviceDesktopCog } from "react-icons/tb";
 import { FaCode } from "react-icons/fa6";
 import { TbDeviceMobileCode } from "react-icons/tb";

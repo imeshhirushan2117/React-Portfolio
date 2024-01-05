@@ -1,11 +1,11 @@
 import './styles.css'
-import home from '../../img/home.png'
+import home from '../../assets/img/home.png'
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import Line from '../../component/Line/Line';
+import Line from '../../component/Line/Line.jsx';
 
 
 

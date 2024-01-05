@@ -1,11 +1,11 @@
 import './App.css'
-import Navbar, { StickyNanbar } from '../component/Navbar/Navbar'
-import Home from '../pages/HomePage/Home'
-import AboutMe from '../pages/AboutMe/AboutMe'
-import Service from '../pages/Service/Service'
-import Skills from '../pages/Skills/Skills'
+import Navbar, { StickyNanbar } from '../component/Navbar/Navbar.jsx'
+import Home from '../pages/HomePage/Home.jsx'
+import AboutMe from '../pages/AboutMe/AboutMe.jsx'
+import Service from '../pages/Service/Service.jsx'
+import Skills from '../pages/Skills/Skills.jsx'
 // import { Route, Routes, Navigate } from 'react-router-dom'
-import { Temp } from '../pages/Temp/Temp'
+import { Temp } from '../pages/Temp/Temp.jsx'
 
 function App() {
 

@@ -1,5 +1,5 @@
 import './styles.css'
-import menu from '../../img/icon/menu-bar.png'
+import menu from '../../assets/img/icon/menu-bar.png'
 
 
 function Navbar() {
@@ -7,7 +7,7 @@ function Navbar() {
         <div className='main-navbar'>
           <div className='main-name'>
           <h1><span style={{color:'#FFFFFF'}}>Imesh</span> Hirushan
-          <img className='menu-icon' src={menu} alt="menu"/>
+          {/*<img className='menu-icon' src={menu} alt="menu"/>*/}
           </h1>
           </div>
            <div className='nav-item'>

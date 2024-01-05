@@ -1,6 +1,6 @@
 import './styles.css'
-import aboutme from '../../img/aboutMe.png'
-import Button from '../../component/Button/Button'
+import aboutme from '../../assets/img/aboutMe.png'
+import Button from '../../component/Button/Button.jsx'
 
 function AboutMe() {
     return (
