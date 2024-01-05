@@ -12,7 +12,7 @@ function Cad(props) {
           <h2>{props.title}</h2>
           <p>{props.pg}</p>
           <div className='btn-div'>
-          <Button className='btn' name={'Read More'} width={'80%'} />
+          <Button className='cad-btn' name={'Read More'} width={'80%'} />
           </div>
       </div>
     )

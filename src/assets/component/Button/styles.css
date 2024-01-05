@@ -1,16 +1,19 @@
-.btn{
-   background-color: #14181E;
-   border: #4BFFA5 solid 2px ;
-   font-family: 'Poppins', sans-serif;
+.main-btn{
+    background: #1E1E1E;
+    border: #4BFFA5 solid 1px;
     color: white;
-    font-size: 15px;
-    letter-spacing: 5px;
-   padding: 10px;
-   border-radius: 100px;
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: 0px 0px 10px #4BFFA5; 
+    transition: box-shadow 0.3s ease-in-out;
     cursor: pointer;
-    margin-top: 40px;
-    margin-left: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: small;
+}
+
+.main-btn:hover {
+    box-shadow: 0px 0px 20px #4BFFA5;
+
 }
