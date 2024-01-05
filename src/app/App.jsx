@@ -6,7 +6,7 @@ import Service from '../pages/Service/Service.jsx'
 import Skills from '../pages/Skills/Skills.jsx'
 // import { Route, Routes, Navigate } from 'react-router-dom'
 import { Temp } from '../pages/Temp/Temp.jsx'
-
+import Portfolio from '../pages/Portfolio/Portfolio.jsx'
 function App() {
 
 
@@ -25,9 +25,10 @@ function App() {
 
           <Home />
           <AboutMe />
-          <Service />
+          <Service/>
           <Skills />
-         
+          <Portfolio />
+          
         
           
       <Temp />

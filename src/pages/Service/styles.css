@@ -7,7 +7,7 @@
     font-size: 18px;
     letter-spacing: 5px;
     flex-direction: column;
-    height: 690px;
+    height: 650px;
     flex-wrap: nowrap;
 }
 
@@ -15,12 +15,15 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    margin-top: -50px;
+    margin-top: -40px;
 }
 
 .cad-div{
     display: flex;
-    justify-content: space-around;
     margin-top: 10px;
+    font-size: 12px;
+    text-align: left;
+    justify-content: space-around;
  
 }
+
