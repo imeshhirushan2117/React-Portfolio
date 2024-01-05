@@ -4,12 +4,13 @@ import Home from '../pages/HomePage/Home.jsx'
 import AboutMe from '../pages/AboutMe/AboutMe.jsx'
 import Service from '../pages/Service/Service.jsx'
 import Skills from '../pages/Skills/Skills.jsx'
-// import { Route, Routes, Navigate } from 'react-router-dom'
-import { Temp } from '../pages/Temp/Temp.jsx'
 import Portfolio from '../pages/Portfolio/Portfolio.jsx'
 import Contact from '../pages/Contact/Contact.jsx'
 import Footer from '../pages/Footer/Footer.jsx'
+import Standalone from '../pages/Standalone/Standalone.jsx'
 
+// import { Route, Routes, Navigate } from 'react-router-dom'
+import { Temp } from '../pages/Temp/Temp.jsx'
 function App() {
   return (
     <>
@@ -31,7 +32,8 @@ function App() {
           <Portfolio />
           <Contact />
           <Footer />
-      {/* <Temp /> */}
+          <Standalone />
+          <Temp />
 
     </>
   )

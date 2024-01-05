@@ -1,0 +1,29 @@
+.project-btn button{
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.project-cad{
+    width: 25rem;
+    background: #1F242D !important;
+    border: #4BFFA5 solid 1px !important;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px ;
+    border-radius: 10px !important;
+     
+}
+.card-title{
+    color: #4BFFA5 !important;
+    font-size: 15px;
+    font-weight: normal !important;
+    letter-spacing: 1px;
+   
+}
+.card-text{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-weight: normal !important;
+
+}
