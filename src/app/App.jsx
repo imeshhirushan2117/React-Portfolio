@@ -7,9 +7,10 @@ import Skills from '../pages/Skills/Skills.jsx'
 // import { Route, Routes, Navigate } from 'react-router-dom'
 import { Temp } from '../pages/Temp/Temp.jsx'
 import Portfolio from '../pages/Portfolio/Portfolio.jsx'
+import Contact from '../pages/Contact/Contact.jsx'
+
+
 function App() {
-
-
   return (
     <>
       <StickyNanbar title={'WELLCOME TO MY PORTFOLIO!'} />
@@ -28,6 +29,7 @@ function App() {
           <Service/>
           <Skills />
           <Portfolio />
+          <Contact />
           
         
           

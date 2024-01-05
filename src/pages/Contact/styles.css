@@ -1,0 +1,36 @@
+.main-contact-div{
+    display: flex;
+    background-color: #323946;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    width: 100%;
+    padding: 100px;
+}
+
+.main-contact-div ,h2{
+    font-weight: normal;
+    line-height: 55px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-contact-div h2{
+    margin-top: -30px;
+}
+
+.btnCol Button {
+    padding: 0 ;
+    margin: 0;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.textArea{
+    margin-top:10px !important;
+
+}
+
