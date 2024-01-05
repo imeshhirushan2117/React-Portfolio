@@ -8,7 +8,7 @@ import Skills from '../pages/Skills/Skills.jsx'
 import { Temp } from '../pages/Temp/Temp.jsx'
 import Portfolio from '../pages/Portfolio/Portfolio.jsx'
 import Contact from '../pages/Contact/Contact.jsx'
-
+import Footer from '../pages/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -30,10 +30,8 @@ function App() {
           <Skills />
           <Portfolio />
           <Contact />
-          
-        
-          
-      <Temp />
+          <Footer />
+      {/* <Temp /> */}
 
     </>
   )
