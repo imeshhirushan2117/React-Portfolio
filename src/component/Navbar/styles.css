@@ -23,12 +23,12 @@
     height: auto;
     position: sticky;
     top: 0px;
-    display: flex;
+    /* display: flex;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: space-around;
     user-select: none;
-    z-index: 100;
+    z-index: 100; */
 }
 
 .main-name {

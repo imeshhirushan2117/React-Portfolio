@@ -10,6 +10,7 @@ import Footer from '../pages/Footer/Footer.jsx'
 import Standalone from '../pages/Standalone/Standalone.jsx'
 import { useRef } from 'react';
 import { Temp } from '../pages/Temp/Temp.jsx'
+import BoostrapNav from '../component/BoostrapNav/BoostrapNav.jsx'
 
 function App() {
   const home = useRef(null);
@@ -24,57 +25,56 @@ function App() {
   const change = (val) => {
     console.log(val);
     if (val === 'home') {
-      home.current?.scrollIntoView({ behavior: 'smooth'});
-    }else if(val === 'about'){
+      home.current?.scrollIntoView({ behavior: 'smooth' });
+    } else if (val === 'about') {
       about.current?.scrollIntoView({ behavior: 'smooth' });
-    }else if(val === 'service'){
+    } else if (val === 'service') {
       service.current?.scrollIntoView({ behavior: 'smooth' });
-    }else if(val === 'skills'){
+    } else if (val === 'skills') {
       skills.current?.scrollIntoView({ behavior: 'smooth' });
-    }else if(val === 'portfolio'){
+    } else if (val === 'portfolio') {
       portfolio.current?.scrollIntoView({ behavior: 'smooth' });
-    }else if(val === 'contact'){
+    } else if (val === 'contact') {
       contact.current?.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
-  
+
   return (
     <>
       <StickyNanbar title={'WELLCOME TO MY PORTFOLIO!'} />
-      <Navbar onChangeContent={(val) => change(val)} />
+      <BoostrapNav onChangeContent={(val) => change(val)} />
 
       <div ref={home}>
-        <Home/>
+        <Home />
       </div>
 
       <div ref={about} >
-      <AboutMe />
+        <AboutMe />
       </div>
 
       <div ref={service} >
-      <Service />
+        <Service />
       </div>
 
       <div ref={skills} >
-      <Skills />
+        <Skills />
       </div>
-     
+
       <div ref={portfolio} >
-      <Portfolio />
+        <Portfolio />
       </div>
- 
 
       <div ref={contact} >
-      <Contact />
+        <Contact />
       </div>
-       
-    
-   
-      <Footer/>
-    
+
+      <Footer />
       {/* <Standalone />
-          <Temp /> */}
+      <Temp /> */}
+
+
+
 
     </>
   )

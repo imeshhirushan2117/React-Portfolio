@@ -7,7 +7,7 @@ function AboutMe() {
         <div className='aboutMe-cantainer'>
          
             <div className='text-contect'>
-                <h2>About <span style={{ color: "#4BFFA5" }}>Me</span> </h2>
+                <h2 className='aboutMe-text'>About <span style={{ color: "#4BFFA5" }}>Me</span> </h2>
                 <h3>Full Stack <span style={{ color: "#4BFFA5" }}> Developer!</span></h3>
                 <br />
                 <p> <span style={{ color: "#4BFFA5" }}>Imesh Hirushan </span> I am from <span style={{ color: "#4BFFA5" }}>Sri Lanka </span> and I am a programmer, designer, and developer. 

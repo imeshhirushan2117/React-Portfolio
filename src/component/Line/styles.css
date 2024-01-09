@@ -6,3 +6,16 @@
     border-radius: 30px;
     user-select: none;
 }
+
+/* 
+
+@media only screen and (max-width: 425px){
+    .down-line {
+   
+        height: 40px;
+        display: none;
+        
+
+    }
+
+} */

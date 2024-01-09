@@ -1,7 +1,7 @@
 import './styles.css'
 import footer from '../../assets/img/home.png'
 
-function Footer(onChangeFooter) {
+function Footer() {
     return (
         <footer className="footer-container">
             <div className="footer-image">
@@ -13,7 +13,7 @@ function Footer(onChangeFooter) {
                 <a href="imeshhirushan2117@gmail.com">imeshhirushan2117@gmail.com</a>
               
             </div>
-            <p style={{cursor:'pointer'}}  onClick={()=> onChangeFooter('footer')}>Click</p>
+
           
 
         </footer>

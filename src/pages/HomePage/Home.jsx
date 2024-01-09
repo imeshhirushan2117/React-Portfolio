@@ -7,8 +7,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import Line from '../../component/Line/Line.jsx';
 
-
-
 function Home() {
     return (
         <>

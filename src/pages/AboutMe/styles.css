@@ -1,4 +1,4 @@
-.aboutMe-cantainer{
+.aboutMe-cantainer {
     background: #1F242D;
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -11,34 +11,88 @@
 
 }
 
-.aboutMe-img{
+.aboutMe-img {
     width: 30%;
 
 }
 
-.text-contect{
+.text-contect {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     margin-left: 40px;
 
+
 }
 
 .text-contect h2,
-h3{
+h3 {
     font-weight: normal;
-    line-height: 55px;
+
 }
 
-.text-contect p{
+.text-contect p {
     line-height: 35px;
     font-weight: normal;
     text-indent: 100px;
     text-align: justify;
     margin-right: 20px;
-    letter-spacing: 3px !important ;
+    letter-spacing: 3px !important;
 }
 
-.btn-about{
-   margin-top: 30px;
+.btn-about {
+    margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 430px) {
+
+    .aboutMe-cantainer {
+        width: 100%;
+
+    }
+
+    .text-contect {
+        width: 100%;
+        align-items: center;
+    }
+
+    .text-contect h2 {
+
+        display: flex;
+        width: 250px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .aboutMe-img {
+        display: none;
+    }
+
+    .text-contect p {
+        color: black;
+        letter-spacing: 2px;
+        text-indent: 10px;
+        text-align: justify;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+    .aboutMe-text {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text-contect h3 {
+        font-size: 15px;
+
+
+
+    }
+
+
+
 }
